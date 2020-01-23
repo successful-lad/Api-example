@@ -1,8 +1,11 @@
 .data-list {
   width: 300px;
-
+  background: gray;
+  color: white;
+  padding-left: 20px;
   ul {
     display: flex;
+    flex-direction: column;
     padding-left: 0;
     list-style: none;
 
