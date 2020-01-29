@@ -2,15 +2,25 @@
   width: 300px;
   background: gray;
   color: white;
-  padding-left: 20px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  min-height: 393px;
+
   ul {
     display: flex;
     flex-direction: column;
     padding-left: 0;
     list-style: none;
+    margin: 0;
 
     li {
-      padding: 10px 0;
+
+      padding: 10px 20px;
+      border-bottom: 1px solid lightgray;
+
+      &:first-child {
+        border-top: 1px solid lightgray;
+      }
     }
   }
 }

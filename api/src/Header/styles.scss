@@ -1,0 +1,19 @@
+.header {
+  width: 800px;
+
+  ul {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      border-radius: 3px;
+      padding: 10px 20px;
+      border: 1px solid darkgray;
+    }
+  }
+}

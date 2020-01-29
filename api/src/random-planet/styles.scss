@@ -1,0 +1,28 @@
+.random-planet {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+
+  &__img-block {
+    flex: 1;
+    height: 300px;
+  }
+
+  &__planet-info {
+    flex: 1;
+    color: white;
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 20px 0;
+
+        &:first-child {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
